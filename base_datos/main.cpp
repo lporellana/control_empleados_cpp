@@ -12,6 +12,8 @@ int main() {
         return 1;
     }
 
+    cout << "Conexión exitosa ✅" << endl;
+    
     vector<string> columnas = {"nombre", "edad", "genero"};
     EloquentORM personas(conn, "personas", columnas);
 
